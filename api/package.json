@@ -1,0 +1,23 @@
+{
+  "name": "todo-api",
+  "version": "0.0.1",
+  "description": "todo api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "todo api"
+  ],
+  "author": "Khrystyna Lysiuk",
+  "license": "ISC",
+  "dependencies": {
+    "co-body": "^4.0.0",
+    "jsonwebtoken": "^5.7.0",
+    "koa": "^1.2.0",
+    "koa-route": "^2.4.2",
+    "mongoose": "^4.4.6",
+    "mongoose-unique-validator": "^1.0.2",
+    "shortid": "^2.2.4"
+  }
+}
